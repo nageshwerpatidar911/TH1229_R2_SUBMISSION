@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>महाकालेश्वर लाइव दर्शन - सिंहस्थ 2028</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Header -->
+<div class="top-banner">
+  <div class="top-left"><img src="Images\logo.jpeg" alt = 'Logo'><span>सिंहस्थ 2028</span></div>
+  <div class="top-right">
+    <span onclick="toggleNotif()">🔔</span>
+    <a href="login.html">Login</a>
+    <a href="register.html">Register</a>
+  </div>
+  <div id="notif-box">
+    <p>⚠️ रामघाट क्षेत्र में भीड़ अधिक है।</p>
+    <p>ℹ️ महाकाल मंदिर VIP दर्शन 2 बजे।</p>
+    <p>✅ मंगलनाथ मार्ग खुला है।</p>
+  </div>
+</div>
+
+<!-- Notification -->
+<div class="notif-bar"><marquee>⚠️ रामघाट भीड़ | ℹ️ महाकाल VIP दर्शन 2 बजे | ✅ मंगलनाथ मार्ग खुला | 🚫 पार्किंग निषेध</marquee></div>
+
+<!-- Menu -->
+<nav>
+  <span class="menu-toggle" onclick="toggleMenu()">☰ मेनू</span>
+  <ul id="menu">
+    <li><a href="index.html">Home</a></li>
+    <li class="has-sub"><a href="#">मंदिर जानकारी</a>
+      <ul>
+        <li><a href="mahakal.html">महाकाल</a></li>
+        <li><a href="harsiddhi.html">हरसिद्धि</a></li>
+        <li><a href="kalbhairav.html">काल भैरव</a></li>
+        <li><a href="mangalnath.html">मंगलनाथ</a></li>
+      </ul>
+    </li>
+    <li class="has-sub"><a href="#">लाइव दर्शन</a>
+      <ul>
+        <li><a href="mahakal-live.html">महाकाल लाइव</a></li>
+        <li><a href="harsiddhi-live.html">हरसिद्धि लाइव</a></li>
+        <li><a href="mangalnath-live.html">मंगलनाथ लाइव</a></li>
+      </ul>
+    </li>
+    <li><a href="lost-found.html">Lost & Found</a></li>
+    <li class="has-sub"><a href="#">Booking</a>
+      <ul>
+        <li><a href="train-booking.html">ट्रेन</a></li>
+        <li><a href="bus-booking.html">बस</a></li>
+        <li><a href="hotel-booking.html">होटल</a></li>
+        <li><a href="food-booking.html">फूड</a></li>
+        <li><a href="ride-booking.html">राइड</a></li>
+      </ul>
+    </li>
+    <li class="has-sub"><a href="#">मेला क्षेत्र</a>
+      <ul>
+        <li><a href="mela-mahakal.html">महाकाल मंदिर</a></li>
+        <li><a href="mela-ramghat.html">रामघाट</a></li>
+        <li><a href="mela-mangalnath.html">मंगलनाथ</a></li>
+      </ul>
+    </li>
+    <li><a href="teerth-mp.html">मध्य प्रदेश के प्रसिद्ध तीर्थ</a></li>
+    <li><a href="dharoher-mp.html">मध्य प्रदेश की ऐतिहासिक धरोहर</a></li>
+    <li><a href="emergency.html">Emergency</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
+
+<!-- Live Feed Section -->
+<div class="section live-video-section">
+  <h2>🔱 श्री महाकालेश्वर ज्योतिर्लिंग उज्जैन - लाइव दर्शन</h2>
+
+  <p class="live-status-note">
+    लाइव दर्शन केवल मंदिर के आरती समय पर ही उपलब्ध होता है। यदि वीडियो अनुपलब्ध दिखाई दे, तो कृपया कुछ समय बाद पुनः प्रयास करें।
+  </p>
+
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/N-Vq6Qbe8bE"
+      title="Live Darshan from Mahakaleshwar Temple"
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+</div>
+
+<footer>
+  <div>© सिंहस्थ 2028 पोर्टल</div>
+  <div><a href="#">Disclaimer</a> | <a href="#">Privacy Policy</a> | <a href="#">Terms</a></div>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
